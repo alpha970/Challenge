@@ -1,12 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { ProductsScreen } from './screen/ProductsScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import { TransitionPresets, createStackNavigator } from '@react-navigation/stack';
 
+const Stack = createStackNavigator();
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: true,
+          ...TransitionPresets.SlideFromRightIOS,
+        }}
+      >
+        <Stack.Screen name="ProductsScreen" component={ProductsScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
