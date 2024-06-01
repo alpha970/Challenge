@@ -3,7 +3,7 @@
 Ce repo est une application basique developpé en react native expo SDK 51.
 
 ## Prerequis
-Si ce n'est pas dejà fait vous devez instaler sur votre machine Node v18+ [https://nodejs.org/] et Git[https://git-scm.com/downloads].
+Si ce n'est pas dejà fait vous devez instaler sur votre machine (Node v20+) [https://nodejs.org/] et (Git)[https://git-scm.com/downloads].
 
 ## Comment faire fonctionner le code ?
 
