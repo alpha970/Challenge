@@ -3,19 +3,21 @@
 Ce repo est une application basique developpée en react native expo SDK 51.
 
 ## Prerequis
-Si ce n'est pas dejà fait vous devez instaler sur votre machine (Node v20+) [https://nodejs.org/] et (Git)[https://git-scm.com/downloads].
+Avant de commencer, assurez-vous d'avoir installé les outils suivants : (Node v20+) [https://nodejs.org/] et (Git)[https://git-scm.com/downloads].
 
-## Comment faire fonctionner le code ?
+## Instructions pour exécuter le code ?
 
-1. Cloner le repo en local
+1. Cloner le repo sur votre machine locale
 ```Shell
-git clone https://github.com/limto18/riisongoo_app.git
+git clone https://github.com/alpha970/Challenge.git
 ```
-3. Placer vous dans le repertoire /frontend pour installer les dependances avec la commande:
+3. Placer vous dans le repertoire /frontend pour installer les dependances :
    ```Shell
+   cd Challenge/frontend
    npm install
+
    ```
 4. Lancer et tester le code
 ```Shell
-npm start
+npm start ou npx expo start 
 ``` 
